@@ -1,5 +1,5 @@
 import sys
-from outter import load_outter_method
+# from outter import load_outter_method
 
 print("module inner loaded")
 
@@ -9,4 +9,4 @@ if __name__ == "__main__":
 	print("package name:",__name__)
 	print("path:",sys.path)
 
-	load_outter_method()
+	# load_outter_method()
